@@ -47,7 +47,6 @@ h2 {
     list-style: none;
     margin-top: 20px;
 }
-
 .social img {
     width: 33px;
 }
@@ -65,7 +64,10 @@ h2 {
     border-radius: 5px;
     box-shadow: 0 0 20px white;
     text-decoration: none;
-    color:#364dcc;
+    color:#2b46e4;
+}
+.link-list li:hover{
+    box-shadow: 0 0 30px white;
 }
 .link-list li {
     margin: 10px 20px;
@@ -76,6 +78,7 @@ h2 {
     display:block;
     margin-top: 7px;
 }
+
 /* SEGUNDA LISTA */
 .link-list-second{
     list-style: none;
@@ -96,6 +99,12 @@ h2 {
     border-radius: 5px;
     text-decoration: none;
 
+}
+.link-list-second li:hover {
+    box-shadow: 0 0 20px white;
+}
+.link-list-second li a {
+    color: black;
 }
 .link-list-second li a span{
     display: block;
