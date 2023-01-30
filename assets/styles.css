@@ -101,6 +101,7 @@ h2 {
     text-align: center;
     width: 100%;
     position: absolute;
+     line-height: 100px
     background:linear-gradient( to right,#485563,#29323c);
     background-repeat: no-repeat;
 } 
