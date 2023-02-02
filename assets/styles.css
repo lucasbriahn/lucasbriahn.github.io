@@ -9,10 +9,12 @@ body {
     background: linear-gradient(to right,#eb3349 , #f45c43);
     color: white;
     font-family: 'Raleway', sans-serif;
+
 }
 .body-container {
     position: relative;
     width: 100%;
+    min-height:100vh;
     height: 100%;
 }
 /* IMAGENS DE PERFIL */
@@ -124,12 +126,6 @@ h2 {
 
 .end-site {
     display: block;
-    position: absolute;
+    position: relative;
     width: 100%;
-    
-}
-@media screen and (min-height:1560){
-    .end-site {
-        margin-top: auto;
-    }
 }
