@@ -126,4 +126,10 @@ h2 {
     display: block;
     position: absolute;
     width: 100%;
+    
+}
+@media screen and (min-height:1560){
+    .end-site {
+        margin-top: auto;
+    }
 }
