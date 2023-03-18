@@ -118,7 +118,7 @@ h2 {
 
 /* SEGUNDA LISTA */
 .link-list-second {
-    margin: 25px 0;
+    margin: 25px 0 15px 0;
     text-align: center;
     align-items: center;
     list-style: none;
