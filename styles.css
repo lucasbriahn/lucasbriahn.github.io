@@ -1,0 +1,177 @@
+@import url(animation.css);
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background: gradient ;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.body-content{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* IMAGENS DE PERFIL */
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 17px white;
+    margin-top: 20px;
+}
+
+/* TITULOS */
+h1 {
+    font-family: 'Architects Daughter', Arial;
+    font-weight: 100;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+/* BOTÕES DE REDES SOCIAIS */
+.social {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.social img {
+    width: 33px;
+}
+
+.social img:hover {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    width: 40px;
+}
+
+/* lISTA DE LINKS ( PRINCIPAL ) */
+.link-list {
+    list-style: none;
+    margin: 0 10px;
+    text-align: center;
+    align-items: center;  
+}
+.link-list li a:hover {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    color:#0a0a0a;
+}
+
+.link-list li a {
+    margin: 0 10px 0 0 ;
+    background-color: white;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px white;
+    text-decoration: none;
+    color: #2b46e4;
+    width: 90%;
+    max-width: 600px;
+}
+
+.link-list li {
+    margin: 10px 0;
+}
+
+.link-list li a span {
+    color: gray;
+    font-size: 14px;
+    display: block;
+    margin-top: 7px;
+}
+
+/* SEGUNDA LISTA */
+.link-list-second {
+    margin: 25px 0 15px 0;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+
+}
+
+.link-list-second li {
+    margin: 10px 0;
+}
+
+.link-list-second li a {
+    background-color: white;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 90%;
+    max-width: 600px;
+
+}
+
+.link-list-second li:hover {
+    box-shadow: 0 0 20px white;
+}
+
+.link-list-second li a {
+    color: black;
+}
+.link-list-second li a:hover {
+    color:#2b46e4 ;
+}
+
+.link-list-second li a span {
+    display: block;
+    color: gray;
+    margin-top: 7px;
+}
+
+/* footer */
+.container {
+    text-align: center;
+    background: linear-gradient(to right, #485563, #29323c);
+}
+
+.container p {
+    padding: 20px;
+}
+
+.end-site {
+    display: block;
+    position: static;
+    width: 100%;
+}
