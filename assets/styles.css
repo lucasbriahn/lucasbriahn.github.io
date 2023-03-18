@@ -1,4 +1,4 @@
-/* ESTILIZAÇÃO DA PAGINA INTEIRA, BODY, HTML E LIMPEZA DOS PADDINGS E MARGINS */
+@import url(animation.css);
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #eb3349, #f45c43);
+    background: gradient ;
     color: white;
     font-family: 'Raleway', sans-serif;
     width: 100%;
@@ -24,32 +24,6 @@ body {
     flex-direction: column;
     align-items: center;
 }
-/* Header */
-/* .navbar {
-    background-color: black;
-}
-.navbar ul {
-    list-style: none;
-    padding: 10px;
-    display: flex;
-    justify-content:start;
-    gap: 12px;
-
-}
-
-.navbar-list li a {
-    text-decoration: none;
-    color: white;
-}
-.navbar-list li a:hover {
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    color: #2b46e4;
-}
- */
 
 /* IMAGENS DE PERFIL */
 .profile {
@@ -60,7 +34,7 @@ body {
     width: 120px;
     border-radius: 50%;
     border: 3px solid white;
-    box-shadow: 0 0 20px white;
+    box-shadow: 0 0 17px white;
     margin-top: 20px;
 }
 
@@ -144,9 +118,11 @@ h2 {
 
 /* SEGUNDA LISTA */
 .link-list-second {
-    margin: 25px 30px;
+    margin: 25px 0;
     text-align: center;
+    align-items: center;
     list-style: none;
+
 }
 
 .link-list-second li {
