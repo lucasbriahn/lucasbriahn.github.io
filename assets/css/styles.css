@@ -170,3 +170,9 @@ h2 {
         width: 25px;
     }
 }
+
+@media (min-height:1547px) and (max-height: 1900px){
+    .container{ 
+        margin-top:12%;
+    }
+}
