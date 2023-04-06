@@ -1,0 +1,12 @@
+@import 'animation.css';
+@import 'variables';
+
+body {
+    background: gradient;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden; 
+    font-family: $font-primary;
+}
+
