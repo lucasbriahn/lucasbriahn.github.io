@@ -146,8 +146,13 @@ body {
     width: 25px;
   }
 }
-@media (min-height: 1500px) {
+@media (min-height: 1660px) and (max-height: 1890px) {
   .container {
-    margin-top: 100vh;
+    margin-top: 10vh;
+  }
+}
+@media (min-height: 1891px) and (max-height: 2500px) {
+  .container {
+    margin-top: 30vh;
   }
 }/*# sourceMappingURL=main.css.map */
