@@ -1,140 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus links - Lucas Briahn</title>
+    <title>Salvar livros - Biblioteca</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <!-- CSS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway&display=swap"
-        rel="stylesheet">
-    <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css-scss/main.css">
 </head>
 
 <body>
-    <main>
-        <div class="body-content">
-            <div class="profile">
-                <img src="assets/image/Foto.jpg" alt="Foto de Lucas">
-                <h1>Lucas Briahn</h1>
-                <h2>Front-end developer | Ethical Hacker</h2>
+    <h1><span class="s1">Biblioteca</span><span class="s2"> Pimentas VII</span><br><span
+            class="material-symbols-outlined">
+            menu_book
+        </span></h1>
+    <div class="conteiner">
+        <form>
+            <br>
+            <input type="text" placeholder="Nome do livro">
+            <br>
+            <input type="text" placeholder="Autor">
+            <br>
+
+            <label for=""></label>
+            <br>
+            <input list="generos" placeholder="Gênero">
+            <datalist id="generos">
+                <option value="Literatura Infantil">
+                <option value="Literatura Moderna">
+                <option value="Romance">
+                <option value="Classicos Nacionais">
+                <option value="Estudo do Professor">
+                <option value="Literatura Juvenil">
+            </datalist>
+            <br>
+            <label for=""></label>
+            <br>
+            <input type="number" placeholder="Quantidade">
+            <br><br><br>
+            <div class="botao">
+                <button>Salvar</button>
             </div>
-            <!-- LINKS DAS REDES SOCIAIS -->
-            <ul class="social">
-                <li>
-                    <a href="https://www.youtube.com/channel/UCv2rSNIFFJsgl8fzo3ZjzkA" target="_blank"><img
-                            src="assets/image/youtube.png" alt="Youtube"></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/whoamii.png/" target="_blank"><img src="assets/image/insta.svg"
-                            alt="instagram"></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/lucas-briahn-58b475224/" target="_blank"><img
-                            src="assets/image/linkedin.svg" alt="linkedin"></a>
-                </li>
-                <li>
-                    <a href="https://github.com/WhoamiPng" target="_blank"><img src="assets/image/github.svg"
-                            alt="github"></a>
-                </li>
-                <li>
-                    <a href="https://wa.me/5511930128681" target="_blank"><img src="assets/image/whatsapp.png"
-                            alt="whatsapp"></a>
-                </li>
-
-            </ul>
-
-            <!-- LINKS DO LINKTREE -->
-            <ul class="link-list">
-                <li>
-                    <a href="https://open.spotify.com/playlist/2n1Ze3jEd0t4HNKeYRNr2f?si=83def692111d4f71"
-                        target="_blank">Minha Playlist do Spotify
-                        <span>Nada melhor que ouvir uma música na hora de codar né ? :3</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/WhoamiPng/WhoamiPng.github.io" target="_blank"> Código fonte do site
-                        <span>
-                            Se for copiar, deixa os créditos no footer
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://seducsp-my.sharepoint.com/:f:/g/personal/0000109403762xsp_aluno_educacao_sp_gov_br/EsCezLpTh2pLofjmM6dfHxoBk8ojyXq_a8F7cuFghvJ72g?e=lYi8TA"
-                        target="_blank"> Curso de C#
-                        <span>Mais utilizado para criação de jogos</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://seducsp-my.sharepoint.com/:f:/g/personal/0000109403762xsp_aluno_educacao_sp_gov_br/EisJYaUKbm1Ah_6_zlLi5FUBlCrKBRCfB6Kx9YDy-Og_TQ?e=xXJOHD"
-                        target="_blank"> Curso de C++
-                        <span>Mesma coisa que o de cima</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://seducsp-my.sharepoint.com/:f:/g/personal/0000109403762xsp_aluno_educacao_sp_gov_br/ErhNmYstpoxEien6G8ljNC8BrNIaR99XwxUf7lEKXjR60w?e=pX53pj"
-                        target="_blank">Cursos de Front-end
-                        <span>Diversos cursos de front-end na minha nuvem, pra facilitar o acesso</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://seducsp-my.sharepoint.com/:f:/g/personal/0000109403762xsp_aluno_educacao_sp_gov_br/Eq6n_5tAmu5KuEaYIUiH8dMBToEwj2vXHBQQ1YYV_MsXrw?e=PqVeIe"
-                        target="_blank">Cursos de Back-end
-                        <span>Mesma coisa, estão em nuvem para facilitar o acesso</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://seducsp-my.sharepoint.com/:f:/g/personal/0000109403762xsp_aluno_educacao_sp_gov_br/EgxP4nf-i-5BqWHt7YCjWHIB_oC9s44V_riyIOYtdY5UsQ?e=gX937e"
-                        target="_blank">Cursos de Hacking
-                        <span>Diversos cursos de Hacking em uma pasta só!</span></a>
-                </li>
-                <li>
-                    <a href="https://seducsp-my.sharepoint.com/:f:/g/personal/0000109403762xsp_aluno_educacao_sp_gov_br/EoS_RjvdHxxOsD52q6h35pwBNAKCz_WV3SUho9ikyCJi8w?e=vAhUn1"
-                        target="_blank">Cursos Flutter
-                        <span>Linguagem de programção baseada em Dart, só que muito mais eficiente</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://seducsp-my.sharepoint.com/:f:/g/personal/0000109403762xsp_aluno_educacao_sp_gov_br/EnKjRrBhNxBFg4oumTJHHNwBpreURV0dUjNxBMmb_B3cWQ?e=XCbMIH"
-                        target="_blank">Cursos Python
-                        <span>Uma das linguagens de programação mais utilizadas em IA e back-end</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://downloadcursos.top" target="_blank">Lugar onde encontro esses cursos
-                        <span>Uma única desvantagem é que só da pra baixar se for via torrent :( </span></a>
-
-                </li>
-                <li>
-                    <a href="assets/docs/lucas-briahn.docx">Meu curriculo
-                        <span>Clique e faça o download do meu curriculo</span>
-                    </a>
-                </li>
-                <div class="second-link">
-                    <li>
-                        <a href="https://wa.me/5511930128681" target="_blank">Me chame no whatsapp
-                            <span>Não fique spamando</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://techgara.com/download/mod/crunchyroll-premium-31913-3849/" target="_blank">
-                            Crunchyroll apk
-                            <span>Mod sem anuncios :D</span>
-                        </a>
-                    </li>
-                </div>
-            </ul>
-        </div>
-    </main>
-    <div class="end-site">
-        <footer class="container">
-            <p>Made with ♡ by Lucas Briahn</p>
-        </footer>
+        </form>
     </div>
 </body>
 
