@@ -16,15 +16,39 @@
     <link rel="stylesheet" href="assets/css-scss/main.css">
 </head>
 
-<body>
+<body onload="playAudio()">
     <main>
+        <!-- Corações -->
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <!-- Corações -->
         <div class="body-content">
             <div class="profile">
-                <img src="assets/image/Foto.jpg" alt="Foto de Lucas">
+                <img class="pic" src="assets/image/Foto.jpg" alt="Foto de Lucas">
                 <h1>Lucas Briahn</h1>
                 <h2>Front-end developer | Ethical Hacker</h2>
             </div>
             <!-- LINKS DAS REDES SOCIAIS -->
+
+            <audio controls autoplay muted id="audio-play">
+                <source src="assets/docs/aaa.mp3" type="audio/mp3">
+            </audio>
+            <script>
+                function playAudio() {
+                    var audio = document.getElementById("audio-play");
+                    audio.currentTime =20;
+                }
+            </script>
             <ul class="social">
                 <li>
                     <a href="https://www.youtube.com/channel/UCv2rSNIFFJsgl8fzo3ZjzkA" target="_blank"><img
@@ -132,7 +156,7 @@
         </div>
     </main>
     <div class="end-site">
-        <footer class="container">
+        <footer class="container-footer">
             <p>Made with ♡ by Lucas Briahn</p>
         </footer>
     </div>
