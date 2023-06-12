@@ -226,6 +226,7 @@
 
 #audio-play {
     margin: 10px 0;
+    width: 35%;
 }
 
 @media (max-width:230px) {
@@ -278,5 +279,11 @@
 @media (max-width:420) {
     .pic {
         width: 50%;
+    }
+}
+
+@media (max-width:1024px){
+    #audio-play {
+        width: 75%;
     }
 }
