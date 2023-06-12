@@ -96,117 +96,131 @@
     color: pink;
     opacity: .5;
     font-size: 40px;
-    -webkit-animation: falling 6s infinite linear;
-    animation: falling 6s infinite linear;
+    -webkit-animation: falling 8s infinite linear;
+    animation: falling 8s infinite linear;
 }
 
 .heart-rain:nth-of-type(1) {
-    bottom: 1200px;
-    left: 2%;
+    bottom: 10%;
+    left: 10%;
 }
 
 .heart-rain:nth-of-type(2) {
-    bottom: 500px;
-    left: 15%;
+    bottom: 20%;
+    left: 20%;
 }
 
 .heart-rain:nth-of-type(3) {
-    bottom: 1000px;
-    left: 50%;
+    bottom: 30%;
+    left: 30%;
 }
 
 .heart-rain:nth-of-type(4) {
-    bottom: 475px;
-    left: 80%;
-}
-
-.heart-rain:nth-of-type(5) {
-    bottom: 600px;
+    bottom: 40%;
     left: 40%;
 }
 
+.heart-rain:nth-of-type(5) {
+    bottom: 50%;
+    left: 50%;
+}
+
 .heart-rain:nth-of-type(6) {
-    bottom: 1200px;
+    bottom: 60%;
     left: 60%;
 }
 
 .heart-rain:nth-of-type(7) {
-    bottom: 1400px;
-    left: 60;
+    bottom: 70%;
+    left: 70%;
 }
 
 .heart-rain:nth-of-type(8) {
-    bottom: 1200px;
-    left: 10%;
+    bottom: 80%;
+    left: 80%;
 }
 
 .heart-rain:nth-of-type(9) {
-    bottom: 1000px;
-    left: 30%;
+    bottom: 90%;
+    left: 90%;
 }
 
 .heart-rain:nth-of-type(10) {
-    bottom: 500px;
-    left: 10;
+    bottom: 10%;
+    left: 40%;
 }
 
 .heart-rain:nth-of-type(11) {
-    bottom: 1200px;
-    left: 30;
+    bottom: 20%;
+    left: 70%;
 }
 
 .heart-rain:nth-of-type(12) {
-    bottom: 1600px;
-    left: 2%;
+    bottom: 30%;
+    left: 90%;
 }
 
 .heart-rain:nth-of-type(13) {
-    bottom: 1000px;
-    left: 30%;
+    bottom: 40%;
+    left: 10%;
 }
 
 .heart-rain:nth-of-type(14) {
-    bottom: 500px;
-    left: 25%;
+    bottom: 50%;
+    left: 30%;
 }
 
 .heart-rain:nth-of-type(15) {
-    bottom: 475px;
-    left: 700%;
+    bottom: 60%;
+    left: 60%;
 }
 
 .heart-rain:nth-of-type(16) {
-    bottom: 400px;
-    left: 12%;
+    bottom: 70%;
+    left: 80%;
+}
+
+.heart-rain:nth-of-type(17) {
+    bottom: 80%;
+    left: 20%;
+}
+
+.heart-rain:nth-of-type(18) {
+    bottom: 90%;
+    left: 50%;
+}
+
+.heart-rain:nth-of-type(19) {
+    bottom: 10%;
+    left: 80%;
+}
+
+.heart-rain:nth-of-type(20) {
+    bottom: 20%;
+    left: 30%;
 }
 
 @-webkit-keyframes falling {
-    0% {
-        transform: rotate(360deg);
+
+    0%,
+    100% {
+        transform: translateY(0);
     }
 
     50% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        bottom: -25px;
-        transform: rotate(-360deg);
+        transform: translateY(100vh);
     }
 }
 
 @keyframes falling {
-    0% {
-        transform: rotate(360deg);
+
+    0%,
+    100% {
+        transform: translateY(0);
     }
 
     50% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        bottom: -25px;
-        transform: rotate(-360deg);
+        transform: translateY(100vh);
     }
 }
 
