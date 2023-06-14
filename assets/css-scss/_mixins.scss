@@ -16,14 +16,7 @@
     align-items: center;
 }
 @mixin image-profile {
-    width: 30%;
-    border-radius: 50%;
-    border: 3px solid white;
-    box-shadow: 0 0 17px white;
-    margin-top: 20px;
-}
-@mixin image-response {
-    width: 50%;
+    width: 55%;
     border-radius: 50%;
     border: 3px solid white;
     box-shadow: 0 0 17px white;
