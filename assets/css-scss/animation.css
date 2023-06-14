@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(315deg, rgb(128, 0, 119) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    background: linear-gradient(315deg, #0b9bc3 3%, rgb(111, 0, 255) 38%, rgb(72, 232, 221) 68%, #ff2200 98%);
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;

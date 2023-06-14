@@ -74,6 +74,28 @@ body {
   text-decoration: none;
   color: #2b46e4;
   max-width: 100%;
+  --border-size: 3px;
+  --border-angle: 0turn;
+  background-image: conic-gradient(from var(--border-angle), rgb(255, 255, 255), rgb(255, 255, 255) 50%, rgb(255, 255, 255)), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+  background-size: calc(100% - var(--border-size) * 2) calc(100% - var(--border-size) * 2), cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: bg-spin 3s linear infinite;
+}
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+.body-content .link-list li a:hover {
+  animation-play-state: paused;
+}
+@property --border-angle {
+  .body-content .link-list li a {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  }
 }
 .body-content .link-list li a:hover {
   transition: 0.4s;
@@ -104,6 +126,29 @@ body {
   color: #2b46e4;
 }
 
+.second-link a {
+  --border-size: 3px;
+  --border-angle: 0turn;
+  background-image: conic-gradient(from var(--border-angle), rgb(255, 255, 255), rgb(255, 255, 255) 50%, rgb(255, 255, 255)), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+  background-size: calc(100% - var(--border-size) * 2) calc(100% - var(--border-size) * 2), cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: bg-spin 3s linear infinite;
+}
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+.second-link a:hover {
+  animation-play-state: paused;
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
 .container {
   text-align: center;
   background: linear-gradient(to right, #485563, #29323c);
