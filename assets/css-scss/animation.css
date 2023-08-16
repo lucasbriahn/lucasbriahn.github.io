@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(315deg, #60bfda 3%, rgb(111, 0, 255) 38%, rgb(240, 49, 157) 68%, #ff002f 98%);
-    animation: gradient 15s ease infinite;
+    background: linear-gradient(315deg, #85e2f8 3%,#e323aa 38%, #fb9103 68%, #fb005a 98%);
+    animation: gradient 35s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
 }
