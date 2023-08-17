@@ -76,7 +76,7 @@ body {
   max-width: 100%;
   --border-size: 3px;
   --border-angle: 0turn;
-  background-image: conic-gradient(from var(--border-angle), rgb(255, 255, 255), rgb(255, 255, 255) 50%, rgb(255, 255, 255)), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+  background-image: conic-gradient(from var(--border-angle), rgb(255, 255, 255), rgb(255, 255, 255) 50%, rgb(255, 255, 255)), conic-gradient(from var(--border-angle), transparent 20%, rgb(132, 198, 255), rgb(255, 81, 116));
   background-size: calc(100% - var(--border-size) * 2) calc(100% - var(--border-size) * 2), cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -153,6 +153,9 @@ body {
   text-align: center;
   background: linear-gradient(to right, #485563, #29323c);
 }
+.container a {
+  color: white;
+}
 .container p {
   padding: 2rem;
 }
@@ -162,7 +165,7 @@ body {
   width: 100vw;
 }
 
-@media (max-width: 230px) {
+@media (max-width: 280px) {
   .social {
     display: flex;
     flex-wrap: wrap;

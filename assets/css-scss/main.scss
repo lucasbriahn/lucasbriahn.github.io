@@ -48,7 +48,7 @@
                     rgb(255, 255, 255),
                     rgb(255, 255, 255) 50%,
                     rgb(255, 255, 255)),
-                conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+                conic-gradient(from var(--border-angle), transparent 20%, rgb(132, 198, 255), rgb(255, 81, 116));
             background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)),
                 cover;
             background-position: center center;
@@ -134,7 +134,9 @@
 
 .container {
     @include container-footer;
-
+    a{
+        color: white;
+    }
     p {
         padding: 2rem;
     }
@@ -146,7 +148,7 @@
     }
 }
 
-@media (max-width:230px) {
+@media (max-width:280px) {
     .social {
         display: flex;
         flex-wrap: wrap;
