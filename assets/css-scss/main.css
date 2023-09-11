@@ -28,7 +28,7 @@ body {
   text-align: center;
 }
 .body-content .profile img {
-  width: 30%;
+  width: 22%;
   border-radius: 100%;
   border: 3px solid white;
   box-shadow: 0 0 17px white;
@@ -220,7 +220,7 @@ body {
 }
 @media (min-width: 56px) and (max-width: 500px) {
   .body-content .profile img {
-    width: 70%;
+    width: 80%;
     border-radius: 100%;
     border: 3px solid white;
     box-shadow: 0 0 17px white;
