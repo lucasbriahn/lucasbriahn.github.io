@@ -1,3 +1,3 @@
 function Myfunction () {
-    alert ("Olá gatinha, te amo viu");
+    alert ("Sou da Mariana, tira os zoi, sua lazarenta(o)");
 }
