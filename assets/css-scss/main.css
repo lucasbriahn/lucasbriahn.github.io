@@ -1,6 +1,5 @@
-@import 'animation.css';
 body {
-  background: gradient;
+  background: rgb(36, 36, 36);
   color: white;
   width: 100vw;
   height: 100vh;
@@ -16,6 +15,8 @@ body {
 
 .body-content {
   position: relative;
+  background: rgb(4, 0, 36);
+  background: linear-gradient(184deg, rgb(4, 0, 36) 0%, rgb(9, 121, 108) 35%, rgb(0, 255, 111) 100%);
   width: 100%;
   height: 100%;
   margin: auto;
@@ -54,13 +55,6 @@ body {
 .body-content .social img {
   width: 33px;
 }
-.body-content #butaum button {
-  background-color: rgb(1, 255, 1);
-  border-radius: 2px;
-  border: 2px solid black;
-  box-shadow: 0 0 10px white;
-  padding: 1%;
-}
 .body-content .link-list {
   list-style: none;
   text-align: center;
@@ -79,7 +73,7 @@ body {
   font-family: "Raleway", sans-serif;
   padding: 3% 7% 3% 7%;
   border-radius: 10px;
-  box-shadow: 0 0 18px white;
+  box-shadow: 0 0 15px white;
   text-decoration: none;
   color: #2b46e4;
   max-width: 90%;

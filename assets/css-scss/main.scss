@@ -35,16 +35,7 @@
             width: 33px;
         }
     }
-    #butaum {
-        button {
-            background-color: rgb(1, 255, 1);
-            border-radius: 2px;
-            border: 2px solid black;
-            box-shadow: 0 0 10px white;
-            padding: 1%;
-        }
 
-    }
     .link-list {
         @include link-list;
 
