@@ -16,7 +16,7 @@ body {
 .body-content {
   position: relative;
   background: rgb(4, 0, 36);
-  background: linear-gradient(184deg, rgb(4, 0, 36) 0%, rgb(9, 121, 108) 35%, rgb(0, 255, 111) 100%);
+  background: linear-gradient(180deg, #42b883, #35495e);
   width: 100%;
   height: 100%;
   margin: auto;
@@ -220,34 +220,4 @@ body {
     box-shadow: 0 0 17px white;
     margin-top: 20px;
   }
-}
-/* @media (min-width:50px) and (max-width:90px){
-    .body-content .link-list {
-        display: none;
-    }
-}
-@media (min-width:50px) and (max-width:90px){
-    .body-content .social {
-        display: none;
-    }
-}
-
-@media (min-width:50px) and (max-width:90px){
-    .end-site {
-        display: none;
-    }
-}
-@media (min-width:50px) and (max-width:90px){
-    .body-content .profile {
-        display: none;
-    }
-}
-
-@media (min-width:50px) and (max-width:90px){
-    .body-content #limit {
-        display: flex;
-        text-align: center;
-        margin-top: 450px;
-    }
-}
- *//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
