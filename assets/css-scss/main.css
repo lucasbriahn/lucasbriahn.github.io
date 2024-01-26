@@ -29,10 +29,10 @@ body {
   text-align: center;
 }
 .body-content .profile img {
-  width: 55%;
+  width: 60%;
   border-radius: 100%;
   border: 3px solid white;
-  box-shadow: 0 0 17px white;
+  box-shadow: 0 0 10px white;
   margin-top: 20px;
 }
 .body-content .profile h1 {
@@ -77,28 +77,6 @@ body {
   text-decoration: none;
   color: #2b46e4;
   max-width: 90%;
-  --border-size: 3px;
-  --border-angle: 0turn;
-  background-image: conic-gradient(from var(--border-angle), rgb(255, 255, 255), rgb(255, 255, 255) 50%, rgb(255, 255, 255)), conic-gradient(from var(--border-angle), transparent 20%, rgb(132, 198, 255), rgb(255, 81, 116));
-  background-size: calc(100% - var(--border-size) * 2) calc(100% - var(--border-size) * 2), cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  animation: bg-spin 3s linear infinite;
-}
-@keyframes bg-spin {
-  to {
-    --border-angle: 1turn;
-  }
-}
-.body-content .link-list li a:hover {
-  animation-play-state: paused;
-}
-@property --border-angle {
-  .body-content .link-list li a {
-    syntax: "<angle>";
-    inherits: true;
-    initial-value: 0turn;
-  }
 }
 .body-content .link-list li a:hover {
   transition: 0.4s;
@@ -129,29 +107,6 @@ body {
   color: #2b46e4;
 }
 
-.second-link a {
-  --border-size: 1px;
-  --border-angle: 0turn;
-  background-image: conic-gradient(from var(--border-angle), rgb(255, 255, 255), rgb(255, 255, 255) 50%, rgb(255, 255, 255)), conic-gradient(from var(--border-angle), transparent 20%, rgb(0, 255, 123), rgb(217, 70, 17));
-  background-size: calc(100% - var(--border-size) * 2) calc(100% - var(--border-size) * 2), cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  animation: bg-spin 3s linear infinite;
-}
-@keyframes bg-spin {
-  to {
-    --border-angle: 1turn;
-  }
-}
-.second-link a:hover {
-  animation-play-state: paused;
-}
-
-@property --border-angle {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 0turn;
-}
 .container {
   text-align: center;
   background: linear-gradient(to right, #485563, #29323c);
@@ -214,7 +169,7 @@ body {
 }
 @media (min-width: 56px) and (max-width: 1000px) {
   .body-content .profile img {
-    width: 50%;
+    width: 70%;
     border-radius: 100%;
     border: 3px solid white;
     box-shadow: 0 0 17px white;
