@@ -142,7 +142,7 @@
                     </a>
                 </li>
             </div>
-        </ul>
+        </ul> 
     </div>
 </main>
 <div class="end-site">
@@ -150,6 +150,15 @@
         <p>Made with ♡ by <a href="https://www.instagram.com/whoamii.png/">Lucas Briahn</a></p>
     </footer>
 </div>
+<script>
+    if (self == top) {
+      // Everything checks out, show the page.
+      document.documentElement.style.display = 'block';
+    } else {
+      // Break out of the frame.
+      top.location = self.location;
+    }
+  </script>
 </body>
 
 </html>
