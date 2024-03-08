@@ -1,2 +1,1 @@
-# lazvendas.github.io
-<h1>Preguiça de fazer um readme . . .</h1>
+<h1>Sem Readme por enquanto</h1>
